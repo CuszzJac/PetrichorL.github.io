@@ -218,7 +218,7 @@ img {
 .widget-title,
 .entry-content th,
 .comment-content th {
-	font-size: 22px;
+	font-size: 11px;
 	font-size: 0.785714286rem;
 	line-height: 2.181818182;
 	font-weight: bold;
@@ -570,7 +570,7 @@ body {
 	font-size: 1rem;
 	font-family: Microsoft YaHei,  Helvetica, Arial, sans-serif;
 	text-rendering: optimizeLegibility;
-	color: rgb(0, 0, 0); /*Article & Widget Content*/
+	color: rgb(255, 255, 255); /*Article & Widget Content*/
 }
 body.custom-font-enabled {
 	font-family: Microsoft YaHei,  Helvetica, Arial, sans-serif;
@@ -578,7 +578,7 @@ body.custom-font-enabled {
 }
 a {
 	outline: none;
-	color: rgb(81, 165, 168); /*Article Title Normal*/
+	color: #F9F9F9; /*Article Title Normal*/
     text-decoration: none;
 }
 a:hover {
@@ -664,7 +664,7 @@ a:hover {
 
 .site-header h1 a,
 .site-header h2 a {
-	color: #000;
+	color: #FFDACF;
 	display: inline-block;
 	text-decoration: none;
 }
@@ -787,7 +787,7 @@ footer[role="contentinfo"] {
 	padding: 1.714285714rem 0;
 }
 footer[role="contentinfo"] a {
-	color: #686868;
+	color: #F92323;
 }
 footer[role="contentinfo"] a:hover {
 	color: #21759b;
@@ -854,11 +854,11 @@ footer[role="contentinfo"] a:hover {
 }
 .comments-link a,
 .entry-meta a {
-	color: rgb(88, 88, 88); /*Article Meta Link Normal*/
+	color: #1EC9E6; /*Article Meta Link Normal*/
 }
 .comments-link a:hover,
 .entry-meta a:hover {
-	color: rgb(81, 165, 168); /*Article Meta Link Hover*/
+	color: #000; /*Article Meta Link Hover*/
 }
 
 article.sticky .featured-post {
@@ -1089,7 +1089,7 @@ img.aligncenter,
 .entry-content table,
 .comment-content table {
 	border-bottom: 1px solid #ededed;
-	color: #757575;
+	color: #FF1212;
 	font-size: 12px;
 	font-size: 0.857142857rem;
 	line-height: 2;
@@ -1720,7 +1720,7 @@ img#wpstats {
 	}
 	.main-navigation li a {
 		border-bottom: 0;
-		color: #6a6a6a;
+		color: #336DF3;
 		line-height: 3.692307692;
 		text-transform: uppercase;
 		white-space: nowrap;
