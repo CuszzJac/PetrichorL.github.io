@@ -89,7 +89,7 @@ Microsoft YaHei,html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 104%;
 	vertical-align: baseline; 
 }
 body {
@@ -223,7 +223,7 @@ img {
 	line-height: 2.181818182;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: rgb(81, 165, 168); /* Widget Title */
+	color: rgb(0, 0, 0); /* Widget Title */
 }
 
 /* Shared Post Format styling */
@@ -570,7 +570,7 @@ body {
 	font-size: 1rem;
 	font-family: Microsoft YaHei,  Helvetica, Arial, sans-serif;
 	text-rendering: optimizeLegibility;
-	color: rgb(255, 255, 255); /*Article & Widget Content*/
+	color: rgb(0, 0, 0); /*Article & Widget Content*/
 }
 body.custom-font-enabled {
 	font-family: Microsoft YaHei,  Helvetica, Arial, sans-serif;
@@ -641,7 +641,7 @@ a:hover {
 .site {
 	padding: 0 24px;
 	padding: 0 1.714285714rem;
-	background-color: rgba(255, 255, 255, 0.20); /* Main Page */
+	background-color: rgba(135, 102, 51, 0.90); /* Main Page */
 }
 .site-content {
 	margin: 24px 0 0;
@@ -664,7 +664,7 @@ a:hover {
 
 .site-header h1 a,
 .site-header h2 a {
-	color: #FFDACF;
+	color: #81EDE6;
 	display: inline-block;
 	text-decoration: none;
 }
@@ -759,10 +759,10 @@ section[role="banner"] {
 	margin-left: 2.571428571rem;
 }
 .widget-area .widget a {
-	color: rgb(0, 0, 0); /* Widget Link Normal*/
+	color: rgb(255, 255, 255); /* Widget Link Normal*/
 }
 .widget-area .widget a:hover {
-	color: rgb(81, 165, 168); /* Widget Link Hover*/
+	color: rgb( 0, 0, 0); /* Widget Link Hover*/
 }
 
 }
@@ -1674,7 +1674,7 @@ img#wpstats {
 	.site {
 		margin: 0 auto;
 		max-width: 960px;
-		max-width: 68.571428571rem;
+		max-width: 78.571428571rem;
 		overflow: hidden;
 	}
 	.site-content {
@@ -1720,7 +1720,7 @@ img#wpstats {
 	}
 	.main-navigation li a {
 		border-bottom: 0;
-		color: #336DF3;
+		color: #FFF;
 		line-height: 3.692307692;
 		text-transform: uppercase;
 		white-space: nowrap;
